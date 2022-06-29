@@ -1,0 +1,515 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    max-width: 1920vw;
+    max-width: 1920vw;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    float: left;
+    width: 50%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.logomarca_i {
+    width: 200px;
+}
+
+nav {
+    float: right;
+    width: 50%;
+    padding-top: 30px;
+    padding-bottom: 29px;
+    padding-right: 50px;
+    text-align: right;
+}
+
+li {
+    display: inline;
+}
+
+a {
+    font-size: 1.1rem;
+    padding-inline: .5rem;
+    font-weight: 400;
+    text-decoration: none;
+    color: white
+}
+
+article {
+    width: 100%;
+    height: auto;
+}
+
+#inicio {
+    background-image: url(../img/Inicio.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+h1 {
+    float: left;
+    width: 100%;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 220px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    color: white;
+}
+
+p {
+    float: left;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    color: white;
+}
+
+.btn_inicio {
+    font-size: 1rem;
+    border: 1px solid black;
+    background-color: #272727;
+    padding: 6px;
+    border-radius: 10px;
+    color: #ff8c00;
+}
+
+.btn_inicio:hover {
+    background-color: #3f7fc0;
+    color: white;
+}
+
+.seta_back {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.seta {
+    padding-top: 99px;
+    width: 70px;
+}
+
+.servico {
+    float: left;
+    width: 100%;
+    height: 105vh;
+    text-align: center;
+    background-color: #eee;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 50px;
+    color: black;
+}
+
+.tiposerv {
+    float: left;
+    width: 50%;
+    background-color: white;
+    width: 35%;
+    height: 60%;
+    margin-top: 100px;
+    margin-left: 32%;
+    margin-right: 12%;
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.design {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: #ff8c00;
+}
+
+.descr_design {
+    color: #272727;
+}
+
+.tiposerv:hover,.descr_design:hover {
+    background-color: #272727;
+    color: white;
+}
+
+.sobre {
+    float: left;
+    width: 100%;
+    height: 102vh;
+    background-image: url(../img/Sobre-Logo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background_sobre {
+    float: left;
+    width: 100%;
+    height: 102vh;
+    background-color: rgba(0, 0, 0, 0.534);
+}
+
+.sobre h2 {
+    width: 20%;
+    margin-top: 20%;
+    margin-left: 10%;
+    
+}
+
+.sobre a {
+    font-size: 2.3rem;
+    font-weight: 400;
+    color: #3f7fc0;
+    text-decoration: underline;
+    text-decoration-color: #ff8c00;
+}
+
+.sobre a:hover {
+    text-decoration: dashed;
+    color: #ff8c00;
+}
+
+.sobre p {
+    text-align: left;
+    margin-left: 9%;
+}
+
+.discr {
+    float: left;
+    width: 50%;
+}
+
+.logo_sobre {
+    width: 460px;
+    padding-left: 10%;
+    padding-top: -90px;
+    filter: blur(1px);
+}
+
+.logo_sobre:hover {
+    filter: blur(0px);
+}
+
+  .contato {
+    width: 100%;
+    height: 140%;
+    padding-top: 1000px;
+    background-color: #eee;
+}
+
+.titulo_contato {
+    padding-top: 200px;
+}
+
+h2{
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 10px;
+    color: #ff500b;
+}
+
+form {
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 27%;
+    text-align: left;
+}
+
+[type="text"], [type="tel"], [type="email"], textarea {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 4px;
+    color: black;
+}
+
+[type="submit"] {
+  background-color: #3f7fc0;
+  color: white;
+  margin: 10px 0px 15px 0px;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+[type="submit"]:hover {
+    background-color: #ff500b;
+}
+
+.page_sobre {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../img/Sobre-nos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.background_page {
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.507);
+}
+
+.page_titulo {
+    width: 100%;
+    margin-top: 120px;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: white;
+
+}
+
+.historia {
+    float: left;
+    width: 100%;
+    height: 90vh;
+    background-color: #eee;
+}
+
+.titulopage_sobre {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-decoration: underline;
+    text-decoration-color: #ff500b;
+}
+
+.historia p {
+    float: left;
+    width: 100%;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 40px;
+    color: #272727;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+  footer p {
+    font-size: 1rem;
+    padding: 9px;
+    text-align: center;
+    color: black;
+}
+
+
+
+@media (max-width: 680px) {
+    .logo {
+        float: left;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        background-color: #27272757;
+    }   
+
+    .logomarca_i {
+        width: 200px;
+    }
+
+    nav {
+        float: right;
+        width: 100%;
+        text-align: center;
+        background-color: #27272757;
+    }
+    
+    li {
+        display: inline;
+    }
+    
+    a {
+        font-size: 1.1rem;
+        padding-inline: .3rem;
+        font-weight: 400;
+        text-decoration: none;
+        color: white;
+    }
+
+    h1 {
+        float: left;
+        width: 100%;
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-top: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
+        text-align: center;
+        color: white;
+    }
+
+    p {
+        float: left;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 400;
+        margin-top: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+        color: white;
+    }
+
+    .seta_back {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .seta {
+        padding-top: 99px;
+        width: 70px;
+    }
+
+    .tiposerv {
+        float: left;
+        width: 50%;
+        background-color: white;
+        width: 79%;
+        height: 55%;
+        margin-top: 100px;
+        margin-left: 12%;
+        margin-right: 12%;
+        padding: 25px;
+        border-radius: 20px;
+    }
+
+    .design {
+        margin-bottom: 10px;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: #ff8c00;
+    }
+
+    .descr_design {
+        color: #272727;
+    }
+
+    .tiposerv:hover,.descr_design:hover {
+        background-color: #272727;
+        color: white;
+    }
+
+    .sobre h2 {
+        width: 70%;
+        margin-top: 30%;
+        margin-left: 10%;
+        
+    }
+    
+    .sobre a {
+        font-size: 2.3rem;
+        font-weight: 400;
+        color: #3f7fc0;
+        text-decoration: underline;
+        text-decoration-color: #ff8c00;
+    }
+    
+    .sobre a:hover {
+        text-decoration: dashed;
+        color: #ff8c00;
+    }
+    
+    .sobre p {
+        text-align: left;
+        margin-left: 9%;
+    }
+    
+    .discr {
+        float: left;
+        width: 70%;
+        margin-left: -3%;
+    }
+    
+    .logo_sobre {
+        visibility: hidden;
+        width: 460px;
+        padding-left: 10%;
+        padding-top: -90px;
+    }
+
+    .contato {
+        width: 100%;
+        height: 10vh;
+        background-color: #272727;
+    }
+    
+    .titulo_contato {
+        font-size: 1.5rem;
+        font-weight: 400;
+        text-align: center;
+        padding-top: 100%;
+        color: #ff500b;
+    }
+    
+    form {
+        width: 100%;
+        padding-top: 5%;
+        padding-left: 27%;
+        text-align: left;
+    }
+
+    .historia p {
+        float: left;
+        width: 100%;
+        font-size: 1.3rem;
+        text-align: center;
+        margin-top: 40px;
+        color: #272727;
+    }
+
+    .historia {
+        float: left;
+        width: 100%;
+        height: 110vh;
+        background-color: #eee;
+    }
+
+}
